@@ -6,7 +6,7 @@ Code:```round(array_element(ping(device_property("FirstAddress")),0))```
 <hr>
 
 
-- ping rtt\
+- packet loss\
 Name: packet_loss_test\
 Description: number of replied pings from 10 ping requests (0-10)\
 Code:```if( array_element(ping(device_property("FirstAddress")) , 0)<0 , 0 , 1 ) +
