@@ -29,3 +29,11 @@ Quality:[oid("1.3.6.1.4.1.41112.1.4.6.1.3.1")]   Capacity:[oid("1.3.6.1.4.1.4111
 
 
 
+
+device name
+[oid("iso.org.dod.internet.mgmt.mib-2.system.sysName.0")]
+or
+[ros_command(":put [/system identity get name]")][Device.FirstAddress] [Device.RosVersion]
+
+
+
